@@ -1,0 +1,16 @@
+[server]
+admin_pwd = "currently not used"
+host = "where to serve"
+port = 0000 #which port to serve on
+
+[database]
+user = "postgres"
+password = "postgres"
+db = "name of postgres database"
+port = 5432 #this is the default postgres port
+host = "localhost"
+
+[site]
+name = "topic" #actual site name
+posts_per_page = 10
+threads_per_page = 20
